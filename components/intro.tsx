@@ -1,4 +1,5 @@
 'use client'
+import { useSectionInView } from '@/lib/hooks'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -7,8 +8,25 @@ import { FaGithubSquare } from 'react-icons/fa'
 import { HiDownload } from 'react-icons/hi'
 
 export default function Intro() {
+  // react-intersection-observer tells us when this section is in the view
+  // When 50% of about is in the view,
+  // const { ref, inView } = useInView({
+  //   threshold: 0.5,
+  // })
+
+  // const { setActiveSection, timeOfLastClick } = useActiveSectionContext()
+
+  // useEffect(() => {
+  //   if (inView && Date.now() - timeOfLastClick > 1000) {
+  //     setActiveSection('Home')
+  //   }
+  // }, [inView, setActiveSection, timeOfLastClick])
+
+  const { ref } = useSectionInView('Home', 0.5)
+
   return (
     <section
+      ref={ref}
       id='home'
       className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
     >
@@ -90,7 +108,7 @@ export default function Intro() {
 
         <a
           className='bg-white text-gray-700 text-[1.35rem] p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'
-          href='https:/github.com'
+          href='https:/github.com/alejanfh'
           target='_blank'
         >
           <FaGithubSquare />

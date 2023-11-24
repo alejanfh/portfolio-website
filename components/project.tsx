@@ -34,8 +34,8 @@ export function Project({ title, description, tags, imageUrl }: ProjectProps) {
       }}
       className='group mb-3 sm:mb-8 last:mb-0 '
     >
-      <section className='group-odd:pl-8 bg-gray-100 max-w-[42rem] rounded-lg border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]  hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white'>
-        <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-odd:ml-[18rem] '>
+      <section className='sm:group-odd:pl-8 bg-gray-100 max-w-[42rem] rounded-lg border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]  hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white'>
+        <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-odd:ml-[18rem] '>
           <h3 className='text-2xl font-semibold'>{title}</h3>
           <p className='mt-2 leading-relaxed text-gray-700 dark:text-white/70'>
             {description}
@@ -56,7 +56,7 @@ export function Project({ title, description, tags, imageUrl }: ProjectProps) {
           src={imageUrl}
           alt={'Project I worked on'}
           quality={95}
-          className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-odd:-right-[initial] group-odd:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-hover:scale-[1.04] transition  group-odd:group-hover:translate-x-3 group-odd:group-hover:translate-y-3 group-odd:group-hover:rotate-2'
+          className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-odd:-right-[initial] group-odd:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-hover:scale-[1.04] transition  group-odd:group-hover:translate-x-3 group-odd:group-hover:translate-y-3 group-odd:group-hover:rotate-2'
         />
       </section>
     </motion.div>

@@ -40,7 +40,7 @@ export default function Intro() {
             transition={{ type: 'tween', duration: 0.2 }}
           >
             <Image
-              src='/albert-dera-image.jpg'
+              src='/alejandro-fortes-portrait.png'
               alt='Alejandro portrait'
               width='192'
               height='192'
@@ -97,7 +97,7 @@ export default function Intro() {
 
         <a
           className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
-          href='/CV.pdf'
+          href='/CV (English) - Alejandro Fortes Hidalgo.pdf'
           download
         >
           Download CV{' '}

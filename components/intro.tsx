@@ -106,7 +106,7 @@ export default function Intro() {
 
         <a
           className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
-          href='https:/linkedin.com/in/alejandro-fortes-hidalgo'
+          href='https://linkedin.com/in/alejandro-fortes-hidalgo'
           target='_blank'
         >
           <BsLinkedin />
@@ -114,7 +114,7 @@ export default function Intro() {
 
         <a
           className='bg-white text-gray-700 text-[1.35rem] p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
-          href='https:/github.com/alejanfh'
+          href='https://github.com/alejanfh'
           target='_blank'
         >
           <FaGithubSquare />

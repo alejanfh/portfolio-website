@@ -66,7 +66,7 @@ export const projectsData = [
   {
     title: "SEAT Cupra WebApp",
     description:
-      "I worked developing and implementig a well-known car-based Webapp. You can see and interact with it in every SEAT Cupra.",
+      "I worked developing and implementing a well-known car-based Webapp. You can see and interact with it in every SEAT Cupra.",
     tags: ["Angular", "HTML", "CSS", "Typescript"],
     imageUrl: seatWebappImage,
   },

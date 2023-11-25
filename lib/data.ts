@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import seatWebappImage from "@/public/seat-webapp-image.jpeg";
 import exclusiverseImage from "@/public/exclusiverse-image.png";
 import myPortfolioImage from "@/public/my-portfolio-image.png";
+import vitaminasparaelpelotopImage from "@/public/vitaminasparaelpelotop-image.png";
 
 export const links = [
   {
@@ -77,13 +78,22 @@ export const projectsData = [
     imageUrl: myPortfolioImage,
   },
   {
+    title: "Vitaminas para el pelo Top",
+    description:
+      "My personal SEO and WordPress practice project. A specialized Amazon affiliate website dedicated to hair care products",
+    tags: ["Wordpress", "SEO", "CSS"],
+    url: 'vitaminasparaelpelotop.com',
+    imageUrl: vitaminasparaelpelotopImage,
+  },
+  {
     title: "Exclusiverse",
     description:
-      "I worked as a Front-end developer creating this landing page for Exclusiverse, the first NFT Travelers Club with unique benefits.",
+      "I worked as a front-end in this landing page for Exclusiverse, the first NFT Travelers Club with unique benefits.",
     tags: ["React", "Next.js", "Typescript", "Tailwind"],
+    url: 'exclusiverse.club',
     imageUrl: exclusiverseImage,
   },
-] as const;
+];
 
 export const skillsData = [
   "React",

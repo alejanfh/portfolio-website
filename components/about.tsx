@@ -17,7 +17,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className='mb-3'>
-        After graduating with a degree in{' '}
+        After getting my degree in{' '}
         <span className='font-medium'>Computer Science</span>, I decided to
         specialize in{' '}
         <span className='font-medium'>front-end web development</span> within
@@ -32,12 +32,12 @@ export default function About() {
 
       <p>
         <span className='italic'>Beyond work</span>, my love for cinema, video
-        games and modern board games fuels my creativity, directly impacting my
+        games, and modern board games fuel my creativity, directly impacting my
         approach to <span className='font-medium'>web development.</span> These
         passions inspire{' '}
         <span className='font-medium'>fresh perspectives,</span> while my keen
         interest in investment sharpens my undestanding of{' '}
-        <span className='font-medium'>technology-business landscape</span>
+        <span className='font-medium'>technology-business landscape</span>{' '}
         shaping my strategic approach to web projects.
       </p>
     </motion.section>

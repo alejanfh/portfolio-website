@@ -104,6 +104,8 @@ export const skillsData = [
   "HTML",
   "CSS",
   "Tailwind",
+  "Jest",
+  "React-testing-library",
   "SCSS",
   "Node.js",
   "Git",

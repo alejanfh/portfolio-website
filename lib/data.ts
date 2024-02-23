@@ -77,7 +77,7 @@ export const projectsData = [
     description:
       "A collaborative, real-time whiteboard. Features like real-time database, add shapes like Rectangles, Ellipses, Sticky notes and Pencil drawing",
     tags: ["React", "Next.js", "Tailwind", "Typescript", "Clerk", "Convex"],
-    url: 'real-time-miro-clone.vercel.app',
+    url: 'real-time-miro-clone-oc97by9v4-alejanfh.vercel.app/',
     imageUrl: miroCloneImage,
   },
   {

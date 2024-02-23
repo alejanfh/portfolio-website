@@ -6,6 +6,8 @@ import seatWebappImage from "@/public/seat-webapp-image.jpeg";
 import exclusiverseImage from "@/public/exclusiverse-image.png";
 import myPortfolioImage from "@/public/my-portfolio-image.png";
 import vitaminasparaelpelotopImage from "@/public/vitaminasparaelpelotop-image.png";
+import miroCloneImage from "@/public/miroCloneImage.png";
+
 
 export const links = [
   {
@@ -71,11 +73,12 @@ export const projectsData = [
     imageUrl: seatWebappImage,
   },
   {
-    title: "My portfolio",
+    title: "Real-Time Miro Clone",
     description:
-      "A fresh React portfolio Website.",
-    tags: ["React", "Next.js", "Frame Motion", "Tailwind", "Typescript CSS", "Email"],
-    imageUrl: myPortfolioImage,
+      "A collaborative, real-time whiteboard. Features like real-time database, add shapes like Rectangles, Ellipses, Sticky notes and Pencil drawing",
+    tags: ["React", "Next.js", "Tailwind", "Typescript", "Clerk", "Convex"],
+    url: 'real-time-miro-clone.vercel.app',
+    imageUrl: miroCloneImage,
   },
   {
     title: "Vitaminas para el pelo Top",
@@ -92,6 +95,13 @@ export const projectsData = [
     tags: ["React", "Next.js", "Typescript", "Tailwind"],
     url: 'exclusiverse.club',
     imageUrl: exclusiverseImage,
+  },
+  {
+    title: "My portfolio",
+    description:
+      "A fresh React portfolio Website.",
+    tags: ["React", "Next.js", "Frame Motion", "Tailwind", "Typescript CSS", "Email"],
+    imageUrl: myPortfolioImage,
   },
 ];
 

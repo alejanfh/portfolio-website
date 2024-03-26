@@ -76,7 +76,7 @@ export const projectsData = [
     description:
       'A collaborative, real-time whiteboard. Features like real-time database, add shapes like Rectangles, Ellipses, Sticky notes and Pencil drawing',
     tags: ['React', 'Next.js', 'Tailwind', 'Typescript', 'Clerk', 'Convex'],
-    // url: 'real-time-miro-clone.vercel.app',
+    // url: 'https://real-time-miro-clone.vercel.app',
     imageUrl: miroCloneImage,
   },
   {
@@ -84,7 +84,7 @@ export const projectsData = [
     description:
       'My personal SEO and WordPress practice project. A specialized Amazon affiliate website dedicated to hair care products',
     tags: ['Wordpress', 'SEO', 'CSS'],
-    url: 'vitaminasparaelpelotop.com',
+    url: 'https://vitaminasparaelpelotop.com',
     imageUrl: vitaminasparaelpelotopImage,
   },
   {
@@ -92,7 +92,7 @@ export const projectsData = [
     description:
       'I worked as a front-end in this landing page for Exclusiverse, the first NFT Travelers Club with unique benefits.',
     tags: ['React', 'Next.js', 'Typescript', 'Tailwind'],
-    url: 'exclusiverse.club',
+    url: 'https://exclusiverse.club',
     imageUrl: exclusiverseImage,
   },
   {
@@ -100,7 +100,7 @@ export const projectsData = [
     description:
       'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
     tags: ['React', 'Vite', 'CSS'],
-    url: 'word-analytics-zeta.vercel.app/',
+    url: 'https://word-analytics-zeta.vercel.app/',
     imageUrl: wordAnalitycsImage,
   },
   {

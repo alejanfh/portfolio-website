@@ -48,7 +48,7 @@ export function Project({
           </p>
           {url ? (
             <a
-              href={`https://www.${url}`}
+              href={`${url}`}
               target='_blank'
               className='underline mt-2 leading-relaxed text-gray-700 dark:text-white/70'
             >

@@ -6,8 +6,8 @@ import seatWebappImage from '@/public/seat-webapp-image.jpeg'
 import exclusiverseImage from '@/public/exclusiverse-image.png'
 import myPortfolioImage from '@/public/my-portfolio-image.png'
 import vitaminasparaelpelotopImage from '@/public/vitaminasparaelpelotop-image.png'
-import miroCloneImage from '@/public/miroCloneImage.png'
 import wordAnalitycsImage from '@/public/wordAnalitycsImage.png'
+import trekbagImage from '@/public/trekbagImage.png'
 
 export const links = [
   {
@@ -72,20 +72,20 @@ export const projectsData = [
     imageUrl: seatWebappImage,
   },
   {
-    title: 'Real-Time Miro Clone',
-    description:
-      'A collaborative, real-time whiteboard. Features like real-time database, add shapes like Rectangles, Ellipses, Sticky notes and Pencil drawing',
-    tags: ['React', 'Next.js', 'Tailwind', 'Typescript', 'Clerk', 'Convex'],
-    // url: 'https://real-time-miro-clone.vercel.app',
-    imageUrl: miroCloneImage,
-  },
-  {
     title: 'Vitaminas para el pelo Top',
     description:
       'My personal SEO and WordPress practice project. A specialized Amazon affiliate website dedicated to hair care products',
     tags: ['Wordpress', 'SEO', 'CSS'],
     url: 'https://vitaminasparaelpelotop.com',
     imageUrl: vitaminasparaelpelotopImage,
+  },
+  {
+    title: 'Trekbag',
+    description:
+      'A modern checklist app for trip-planning, with state management Zustand',
+    tags: ['React', 'Vite', 'CSS', 'Zustand'],
+    url: 'https://trekbag-wine.vercel.app/',
+    imageUrl: trekbagImage,
   },
   {
     title: 'Exclusiverse',
@@ -121,7 +121,6 @@ export const projectsData = [
 export const skillsData = [
   'React',
   'Next.js',
-  'Angular',
   'TypeScript',
   'JavaScript',
   'HTML',
@@ -131,6 +130,7 @@ export const skillsData = [
   'React-testing-library',
   'SCSS',
   'Node.js',
+  'Angular',
   'Git',
   'Framer Motion',
   'Shopify',

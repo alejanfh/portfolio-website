@@ -8,6 +8,7 @@ import myPortfolioImage from '@/public/my-portfolio-image.png'
 import vitaminasparaelpelotopImage from '@/public/vitaminasparaelpelotop-image.png'
 import wordAnalitycsImage from '@/public/wordAnalitycsImage.png'
 import trekbagImage from '@/public/trekbagImage.png'
+import corpComment from '@/public/corp-comment-image.png'
 
 export const links = [
   {
@@ -78,6 +79,13 @@ export const projectsData = [
     tags: ['Wordpress', 'SEO', 'CSS'],
     url: 'https://vitaminasparaelpelotop.com',
     imageUrl: vitaminasparaelpelotopImage,
+  },
+  {
+    title: 'Corp Comment',
+    description: 'A sleek public feedback tool.',
+    tags: ['React', 'Vite', 'CSS', 'Zustand'],
+    url: 'https://corp-comment-puce.vercel.app/',
+    imageUrl: corpComment,
   },
   {
     title: 'Trekbag',

@@ -1,147 +1,155 @@
-import React from 'react'
-import { FaReact } from 'react-icons/fa'
-import { SiSeat } from 'react-icons/si'
-import { LuGraduationCap } from 'react-icons/lu'
-import seatWebappImage from '@/public/seat-webapp-image.jpeg'
-import exclusiverseImage from '@/public/exclusiverse-image.png'
-import myPortfolioImage from '@/public/my-portfolio-image.png'
-import vitaminasparaelpelotopImage from '@/public/vitaminasparaelpelotop-image.png'
-import wordAnalitycsImage from '@/public/wordAnalitycsImage.png'
-import trekbagImage from '@/public/trekbagImage.png'
-import corpComment from '@/public/corp-comment-image.png'
+import React from "react";
+import { FaReact } from "react-icons/fa";
+import { SiSeat } from "react-icons/si";
+import { LuGraduationCap } from "react-icons/lu";
+import seatWebappImage from "@/public/seat-webapp-image.jpeg";
+import exclusiverseImage from "@/public/exclusiverse-image.png";
+import myPortfolioImage from "@/public/my-portfolio-image.png";
+import vitaminasparaelpelotopImage from "@/public/vitaminasparaelpelotop-image.png";
+import wordAnalitycsImage from "@/public/wordAnalitycsImage.png";
+import trekbagImage from "@/public/trekbagImage.png";
+import corpComment from "@/public/corp-comment-image.png";
+import rmtdevImage from "@/public/rmtdevImage.png";
 
 export const links = [
   {
-    name: 'Home',
-    hash: '#home',
+    name: "Home",
+    hash: "#home",
   },
   {
-    name: 'About',
-    hash: '#about',
+    name: "About",
+    hash: "#about",
   },
   {
-    name: 'Projects',
-    hash: '#projects',
+    name: "Projects",
+    hash: "#projects",
   },
   {
-    name: 'Skills',
-    hash: '#skills',
+    name: "Skills",
+    hash: "#skills",
   },
   {
-    name: 'Experience',
-    hash: '#experience',
+    name: "Experience",
+    hash: "#experience",
   },
   {
-    name: 'Contact',
-    hash: '#contact',
+    name: "Contact",
+    hash: "#contact",
   },
-] as const
+] as const;
 
 export const experiencesData = [
   {
-    title: 'Computer Science',
-    location: 'FIB - UPC, Barcelona',
+    title: "Computer Science",
+    location: "FIB - UPC, Barcelona",
     description:
-      'I graduated after 4 years of studying. I immediately found a job as a front-end webapp developer.',
+      "I graduated after 4 years of studying. I immediately found a job as a front-end webapp developer.",
     icon: React.createElement(LuGraduationCap),
-    date: '2021',
+    date: "2021",
   },
   {
-    title: 'Front-End WebApp Developer',
-    location: 'Movetia - Barcelona',
+    title: "Front-End WebApp Developer",
+    location: "Movetia - Barcelona",
     description:
-      'I worked as a front-end webapp developer for 1 year. During this period, I was engaged as a front-end web app developer, contributing to the development and implementation of car-based web applications using Angular for SEAT S.A.',
+      "I worked as a front-end webapp developer for 1 year. During this period, I was engaged as a front-end web app developer, contributing to the development and implementation of car-based web applications using Angular for SEAT S.A.",
     icon: React.createElement(SiSeat),
-    date: '2021 - 2022',
+    date: "2021 - 2022",
   },
   {
-    title: 'Front-End Developer',
-    location: 'Eunoia Digital - Barcelona',
+    title: "Front-End Developer",
+    location: "Eunoia Digital - Barcelona",
     description:
       "I'm now a front-end developer currently working in Eunoia Digital, responsible for designing and implementing engaging user interfaces and functionalities using a stack that includes React, Next.js, TypeScript, Tailwind and CSS.",
     icon: React.createElement(FaReact),
-    date: '2022 - present',
+    date: "2022 - present",
   },
-] as const
+] as const;
 
 export const projectsData = [
   {
-    title: 'SEAT Cupra WebApp',
+    title: "SEAT Cupra WebApp",
     description:
-      'I worked developing and implementing a well-known car-based Webapp. You can see and interact with it in every SEAT Cupra.',
-    tags: ['Angular', 'HTML', 'CSS', 'Typescript'],
+      "I worked developing and implementing a well-known car-based Webapp. You can see and interact with it in every SEAT Cupra.",
+    tags: ["Angular", "HTML", "CSS", "Typescript"],
     imageUrl: seatWebappImage,
   },
   {
-    title: 'Vitaminas para el pelo Top',
+    title: "Vitaminas para el pelo Top",
     description:
-      'My personal SEO and WordPress practice project. A specialized Amazon affiliate website dedicated to hair care products',
-    tags: ['Wordpress', 'SEO', 'CSS'],
-    url: 'https://vitaminasparaelpelotop.com',
+      "My personal SEO and WordPress practice project. A specialized Amazon affiliate website dedicated to hair care products",
+    tags: ["Wordpress", "SEO", "CSS"],
+    url: "https://vitaminasparaelpelotop.com",
     imageUrl: vitaminasparaelpelotopImage,
   },
   {
-    title: 'Corp Comment',
-    description: 'A sleek public feedback tool.',
-    tags: ['React', 'Vite', 'CSS', 'Zustand'],
-    url: 'https://corp-comment-puce.vercel.app/',
+    title: "RmtDEV",
+    description: "Astylish job board for remote developer jobs.",
+    tags: ["React", "Vite", "CSS", "API Context", "React Query"],
+    url: "https://rmtdev-blond.vercel.app/",
+    imageUrl: rmtdevImage,
+  },
+  {
+    title: "Corp Comment",
+    description: "A sleek public feedback tool.",
+    tags: ["React", "Vite", "CSS", "Zustand"],
+    url: "https://corp-comment-puce.vercel.app/",
     imageUrl: corpComment,
   },
   {
-    title: 'Trekbag',
+    title: "Trekbag",
     description:
-      'A modern checklist app for trip-planning, with state management Zustand',
-    tags: ['React', 'Vite', 'CSS', 'Zustand'],
-    url: 'https://trekbag-wine.vercel.app/',
+      "A modern checklist app for trip-planning, with state management Zustand",
+    tags: ["React", "Vite", "CSS", "Zustand"],
+    url: "https://trekbag-wine.vercel.app/",
     imageUrl: trekbagImage,
   },
   {
-    title: 'Exclusiverse',
+    title: "Exclusiverse",
     description:
-      'I worked as a front-end in this landing page for Exclusiverse, the first NFT Travelers Club with unique benefits.',
-    tags: ['React', 'Next.js', 'Typescript', 'Tailwind'],
-    url: 'https://exclusiverse.club',
+      "I worked as a front-end in this landing page for Exclusiverse, the first NFT Travelers Club with unique benefits.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind"],
+    url: "https://exclusiverse.club",
     imageUrl: exclusiverseImage,
   },
   {
-    title: 'Word Analytics',
+    title: "Word Analytics",
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Vite', 'CSS'],
-    url: 'https://word-analytics-zeta.vercel.app/',
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Vite", "CSS"],
+    url: "https://word-analytics-zeta.vercel.app/",
     imageUrl: wordAnalitycsImage,
   },
   {
-    title: 'My portfolio',
-    description: 'A fresh React portfolio Website.',
+    title: "My portfolio",
+    description: "A fresh React portfolio Website.",
     tags: [
-      'React',
-      'Next.js',
-      'Frame Motion',
-      'Tailwind',
-      'Typescript CSS',
-      'Email',
+      "React",
+      "Next.js",
+      "Frame Motion",
+      "Tailwind",
+      "Typescript CSS",
+      "Email",
     ],
     imageUrl: myPortfolioImage,
   },
-]
+];
 
 export const skillsData = [
-  'React',
-  'Next.js',
-  'TypeScript',
-  'JavaScript',
-  'HTML',
-  'CSS',
-  'Tailwind',
-  'Jest',
-  'React-testing-library',
-  'SCSS',
-  'Node.js',
-  'Angular',
-  'Git',
-  'Framer Motion',
-  'Shopify',
-  'Wordpress',
-  'SEO',
-] as const
+  "React",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "Tailwind",
+  "Jest",
+  "React-testing-library",
+  "SCSS",
+  "Node.js",
+  "Angular",
+  "Git",
+  "Framer Motion",
+  "Shopify",
+  "Wordpress",
+  "SEO",
+] as const;

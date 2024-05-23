@@ -10,6 +10,7 @@ import wordAnalitycsImage from "@/public/wordAnalitycsImage.png";
 import trekbagImage from "@/public/trekbagImage.png";
 import corpComment from "@/public/corp-comment-image.png";
 import rmtdevImage from "@/public/rmtdevImage.png";
+import petsoftImage from "@/public/petsoftImage.png";
 
 export const links = [
   {
@@ -82,8 +83,24 @@ export const projectsData = [
     imageUrl: vitaminasparaelpelotopImage,
   },
   {
+    title: "Petsoft",
+    description:
+      "A full-stack Next.js app + modern ecosystem (state-of-the-art SaaS app).",
+    tags: [
+      "React",
+      "NextJS",
+      "Tailwind",
+      "API Context",
+      "Zod",
+      "Next Auth",
+      "Stripe",
+    ],
+    url: "https://petsoft-omega.vercel.app/",
+    imageUrl: petsoftImage,
+  },
+  {
     title: "RmtDEV",
-    description: "Astylish job board for remote developer jobs.",
+    description: "A stylish job board for remote developer jobs.",
     tags: ["React", "Vite", "CSS", "API Context", "React Query"],
     url: "https://rmtdev-blond.vercel.app/",
     imageUrl: rmtdevImage,

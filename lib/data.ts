@@ -2,6 +2,7 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { SiSeat } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
+import { TbSquareLetterM } from "react-icons/tb";
 import seatWebappImage from "@/public/seat-webapp-image.jpeg";
 import exclusiverseImage from "@/public/exclusiverse-image.png";
 import myPortfolioImage from "@/public/my-portfolio-image.png";
@@ -60,9 +61,17 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Eunoia Digital - Barcelona",
     description:
-      "I'm now a front-end developer currently working in Eunoia Digital, responsible for designing and implementing engaging user interfaces and functionalities using a stack that includes React, Next.js, TypeScript, Tailwind and CSS.",
+      "For two years, I served as a front-end developer at Eunoia Digital, where I specialized in creating and deploying interactive user interfaces and features with a tech stack comprising React, Next.js, TypeScript, Tailwind, and CSS.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2022 - 2024",
+  },
+  {
+    title: "Front-End Developer",
+    location: "Mecalux - Barcelona",
+    description:
+      "Currently, I hold the position of front-end developer at Mecalux. My role involves designing and implementing dynamic user interfaces and functionalities, utilizing technologies such as React, Next.js, TypeScript, Tailwind, and CSS.",
+    icon: React.createElement(TbSquareLetterM),
+    date: "2024 - present",
   },
 ] as const;
 
@@ -159,14 +168,14 @@ export const skillsData = [
   "HTML",
   "CSS",
   "Tailwind",
+  "Zod",
+  "Next Auth",
+  "Git",
+  "SEO",
+  "Node.js",
+  "Framer Motion",
   "Jest",
   "React-testing-library",
-  "SCSS",
-  "Node.js",
-  "Angular",
-  "Git",
-  "Framer Motion",
   "Shopify",
   "Wordpress",
-  "SEO",
 ] as const;

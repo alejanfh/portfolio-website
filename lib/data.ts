@@ -12,6 +12,7 @@ import trekbagImage from "@/public/trekbagImage.png";
 import corpComment from "@/public/corp-comment-image.png";
 import rmtdevImage from "@/public/rmtdevImage.png";
 import petsoftImage from "@/public/petsoftImage.png";
+import mrvoltImage from "@/public/mrvolt-image.png";
 
 export const links = [
   {
@@ -82,6 +83,14 @@ export const projectsData = [
       "I worked developing and implementing a well-known car-based Webapp. You can see and interact with it in every SEAT Cupra.",
     tags: ["Angular", "HTML", "CSS", "Typescript"],
     imageUrl: seatWebappImage,
+  },
+  {
+    title: "Mr Volt",
+    description:
+      "A personal project built to collect and display the most important electric car industry news in Spain, fully automated using N8N workflows.",
+    tags: ["Vite", "React", "Tailwind", "N8N"],
+    url: "https://mr-volt.vercel.app/",
+    imageUrl: mrvoltImage,
   },
   {
     title: "Vitaminas para el pelo Top",
@@ -168,6 +177,7 @@ export const skillsData = [
   "HTML",
   "CSS",
   "Tailwind",
+  "N8N",
   "Zod",
   "Next Auth",
   "Git",

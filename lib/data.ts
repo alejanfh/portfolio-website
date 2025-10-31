@@ -87,7 +87,7 @@ export const projectsData = [
   {
     title: "Mr Volt",
     description:
-      "A personal project built to collect and display the most important electric car industry news in Spain, fully automated using N8N workflows.",
+      "A personal project built to collect and display the most important electric car industry news in Spain, fully automated with AI using N8N workflows.",
     tags: ["Vite", "React", "Tailwind", "N8N"],
     url: "https://mr-volt.vercel.app/",
     imageUrl: mrvoltImage,

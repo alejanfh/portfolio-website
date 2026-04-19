@@ -13,6 +13,7 @@ import corpComment from "@/public/corp-comment-image.png";
 import rmtdevImage from "@/public/rmtdevImage.png";
 import petsoftImage from "@/public/petsoftImage.png";
 import mrvoltImage from "@/public/mrvolt-image.png";
+import aleXImage from "@/public/aleX-image.png";
 
 export const links = [
   {
@@ -77,6 +78,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "AleX Crypto Tracker",
+    description:
+      "Real-time crypto analytics terminal that provides live market data, trending assets, and detailed token insights.",
+    tags: ["Vite", "React", "Websocket", "Typescript"],
+    imageUrl: aleXImage,
+  },
   {
     title: "SEAT Cupra WebApp",
     description:
